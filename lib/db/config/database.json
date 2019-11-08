@@ -1,0 +1,18 @@
+{
+    "defaultEnv": {"ENV": "NODE_ENV"},
+    "postgresql": {
+        "driver": "pg",
+        "user": {"ENV": "APP_DB_USERNAME"},
+        "password": {"ENV": "APP_DB_PASSWORD"},
+        "host": {"ENV": "APP_DB_HOST"},
+        "database": {"ENV": "APP_DB_DATABASE"},
+        "schema": {"ENV": "APP_DB_SCHEMA"},
+        "port": {"ENV": "APP_DB_PORT"}
+    },
+    "mongodb": {
+        "driver": "mongodb",
+        "host": {"ENV": "APP_DB_HOST"},
+        "port": {"ENV": "APP_DB_PORT"},
+        "database": {"ENV": "APP_DB_DATABASE"}
+    }
+}

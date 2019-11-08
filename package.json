@@ -1,0 +1,43 @@
+{
+  "name": "wdio-cucumber-mocha-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for test automation using webdriverio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickppires/wdio-cucumber-mocha-boilerplate.git"
+  },
+  "keywords": [
+    "wdio",
+    "webdriverio"
+  ],
+  "author": "Patrick Pires",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickppires/wdio-cucumber-mocha-boilerplate/issues"
+  },
+  "homepage": "https://github.com/patrickppires/wdio-cucumber-mocha-boilerplate#readme",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^5.11.0",
+    "@wdio/cli": "^5.10.9",
+    "@wdio/local-runner": "^5.10.9",
+    "@wdio/mocha-framework": "^5.10.8",
+    "@wdio/sync": "^5.10.8",
+    "allure-commandline": "^2.9.0",
+    "chromedriver": "^75.0.0",
+    "dotenv": "^8.0.0",
+    "faker": "^4.1.0",
+    "wdio-reportportal-reporter": "^5.0.1",
+    "wdio-reportportal-service": "^5.0.2"
+  },
+  "dependencies": {
+    "eslint": "^6.6.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "db-migrate": "^0.11.6",
+    "db-migrate-pg": "^0.5.1"
+  }
+}
